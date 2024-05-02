@@ -40,7 +40,7 @@ function parseOpenAIMessage(request: APIRequest) {
 
 function responseOpenAIMessage(content: string): APIResponse {
   const message: APIMessage = {
-    role: 'assistant',
+    role: 'OpenAI's GPT-4',
     content,
   };
   return {
